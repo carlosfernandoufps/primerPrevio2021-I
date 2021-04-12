@@ -153,10 +153,6 @@
 	padding: 10px;
 }
 
-.derecha{
-	width: 100px;
-}
-
 .gafitas{
 	background-color: blue;
 }
@@ -182,4 +178,24 @@
 	border-color: lightblue;
 	background-color: lightgray;
 	text-align: center;
+}
+
+@media (max-width: 600px){
+	.grid-container{
+		grid-template-columns: auto;
+	}
+	.nav{
+		display: block;
+	}
+	.lista-nav{
+		display: block;
+	}
+
+	.seccion{
+		display: block;
+	}
+
+	.contenedor-seccion{
+		display: block;
+	}
 }
